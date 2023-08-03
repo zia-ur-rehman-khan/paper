@@ -33,12 +33,11 @@ export default function Home() {
     <div className="App">
       <header className="App-header">
         <img
-          src="https://media.licdn.com/dms/image/C560BAQH1GD2OHQunqA/company-logo_200_200/0/1645366610347?e=2147483647&v=beta&t=2if88Gc9ZNrgo4PoRUNhmdRVDQwmh9_i3UXvMvZOzg4"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
           alt="Google Logo"
         />
         <h1>Login with gmail account</h1>
         <form onSubmit={handleSubmit}>
-          <input placeholder="Name" />
           <input
             type="email"
             value={email}
