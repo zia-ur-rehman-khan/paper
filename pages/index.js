@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -38,6 +39,8 @@ export default function Home() {
         />
         <h1>Login with gmail account</h1>
         <form onSubmit={handleSubmit}>
+          <input placeholder="Name" />
+
           <input
             type="email"
             value={email}
